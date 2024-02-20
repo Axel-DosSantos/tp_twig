@@ -1,0 +1,72 @@
+{
+    "Titre" : "Tshirts.fr",
+    "Departements" : 
+        [
+            { 
+                "Service" :  "Direction" ,
+                "Personnel" : [
+                    { 
+                        "idp" : "d1" ,
+                        "nom" : "Pierre" ,
+                        "prenom" : "Fabien",
+                        "tel" : "04 65 41" ,
+                        "mel" : "f.pierre@dtshirts.fr" 
+                    } ,
+                    { 
+                        "idp" : "d2" ,
+                        "nom" : "Ruiz" ,
+                        "prenom" : "Maria" ,
+                        "tel" : "04 65 40" ,
+                        "mel" : "m.ruiz@dtshirts.fr" 
+                    } 
+                ]
+            } ,
+            {
+                "Service" : "Commerciaux" ,
+                "Personnel" : [
+                    { 
+                        "idp" : "c1" ,
+                        "nom" : "Bichet" ,
+                        "prenom" : "Audrey" ,
+                        "tel" : "04 65 43" ,
+                        "mel" : "a.bichet@dtshirts.fr" 
+                    } ,
+                    { 
+                        "idp" : "c2" ,
+                        "nom" : "Clavelin" ,
+                        "prenom" : "Matthias" ,
+                        "tel" : "04 65 45" ,
+                        "mel" : "M.clavelin@dtshirts.fr" 
+                    } ,
+                    { 
+                        "idp" : "c3" ,
+                        "nom" : "Husson" ,
+                        "prenom" : "Jean-Luc" ,
+                        "tel" : "04 65 44" ,
+                        "mel" : "jl.husson@dtshirts.fr" 
+                    } 
+                ]
+            },
+            {
+                "Service" : "Ouvriers" ,
+                "Personnel" : [
+                    { 
+                        "idp" : "o1" ,
+                        "nom" : "Hagemann" ,
+                        "prenom" : "Simon" ,
+                        "tel" : "04 65 47" ,
+                        "mel" : "s.hagemann@dtshirts.fr" 
+                    } ,
+                    { 
+                        "idp" : "o2" ,
+                        "nom" : "Aveline" ,
+                        "prenom" : "Élodie" ,
+                        "tel" : "04 65 49" ,
+                        "mel" : "e.aveline@dtshirts.fr" 
+                    } 
+                ] 
+            }
+        
+
+        ]
+}

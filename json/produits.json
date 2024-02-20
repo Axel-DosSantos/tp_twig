@@ -1,0 +1,67 @@
+{
+    "collection" : "Été",
+    "annee" : 2021,
+    "tshirts": 
+    [
+        {
+            "id" : 1 ,
+            "nom" : "Golf 1" ,
+            "categorie" : "Homme" ,
+            "promo" : true ,
+            "prix" : 19.90 ,
+            "description" : "Pour les hommes aimant l'élégance et le confort...",
+            "notation" : 3 ,
+            "image" : "prod1.jpg"
+        } ,
+        {
+            "id" : 2 ,
+            "nom" : "Tennis f1" ,
+            "categorie" : "Femme" ,
+            "promo" : false ,
+            "prix" : 19.90 ,
+            "description" : "Pour les femmes sportives attachées à la qualité...",
+            "notation" : 4 ,
+            "image" : "prod2.jpg"
+        },
+        {
+            "id" : 3 ,
+            "nom" : "Sport Child 1" ,
+            "categorie" : "Enfants" ,
+            "promo" : true ,
+            "prix" : 14.90 ,
+            "description" : "La performance n'attend pas le nombre des années...",
+            "notation" : 1 ,
+            "image" : "prod3.jpg"
+        },
+        {
+            "id" : 4 ,
+            "nom" : "Sport Child 2" ,
+            "categorie" : "Enfants" ,
+            "promo" : false ,
+            "prix" : 14.90 ,
+            "description" : "La performance n'attend pas le nombre des années...",
+            "notation" : 5 ,
+            "image" : "prod4.jpg"
+        },
+        {
+            "id" : 5 ,
+            "nom" : "Skate" ,
+            "categorie" : "Homme" ,
+            "promo" : false ,
+            "prix" : 34.70 ,
+            "description" : "Made for men",
+            "notation" : 3 ,
+            "image" : "prod5.jpg"
+        },
+        {
+            "id" : 6 ,
+            "nom" : "Skate" ,
+            "categorie" : "Enfants" ,
+            "promo" : true ,
+            "prix" : 14.90 ,
+            "description" : "Made for young children",
+            "notation" : 5 ,
+            "image" : "prod6.jpg"
+        }
+    ]
+}

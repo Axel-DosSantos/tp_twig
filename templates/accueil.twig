@@ -1,0 +1,21 @@
+{% extends 'gabarit.twig' %}
+
+{% block title %}Page d'accueil{% endblock %}
+{% block titre %}Accueil{% endblock %}
+{% block contenu %}
+    <section class="produits">
+        {% for produit in produits %}
+            <article class="prod">
+                <figure>
+                    <img src="medias/{{ produit.image }}" alt="{{ produit.nom }}">
+                </figure>
+                <div class="desc">
+                    <h2>{{ produit.nom }}</h2>
+                    <p>{{ produit.description }}</p>
+                    <p class="prix {% if produit.promo %}promo{% endif %}">{{ produit.prix }} €</p>
+                    <a href="#" class="btn btn-primary">Ajouter au panier</a>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+{% endblock %}

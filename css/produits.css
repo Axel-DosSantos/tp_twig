@@ -1,0 +1,84 @@
+/* ---------------------------- */
+/* PRODUITS                     */
+/* ---------------------------- */
+
+section.produits {    
+    display: flex ;
+    flex-wrap: wrap ;
+    align-content : flex-start ;
+}
+
+section.produits article.prod {
+    border-radius: 5px;
+    border : 1px solid silver;
+    flex-basis : 230px ; 
+    margin-bottom : 20px;
+    margin-right: 10px;
+    display : flex ;
+    flex-direction: column ;
+    height: 470px; 
+}
+
+
+section.produits div.desc {
+    padding : 10px;
+    flex-shrink: 0 ;
+    flex-grow : 1 ; 
+}
+
+section.produits span.promo {
+    color : #c00 ;
+}
+
+section.produits article.prod h2 {
+    margin-top: 0px;
+    font-size : 1.3em ;
+}
+
+section.produits article.prod p.prix{
+    font-weight: bold ;
+    color : #000 ;
+}
+
+section.produits article.prod a {
+    color : #3e95ff ;
+    transition: all 0.5s linear ;
+}
+
+
+section.produits article.prod a:hover {
+    color : #155fb9 ;
+}
+
+
+section.produits.prod figure {
+    margin : 0px;
+    padding-top: 10px;
+    text-align: center;
+
+    border-bottom: 2px solid #eee ;
+}
+
+
+/* ---------------------------- */
+/* NOTATION                     */
+/* ---------------------------- */
+
+div.notation {
+    background-color: #ccc ;
+    line-height : 35px;
+    color : #777;
+    padding-left : 10px;
+}
+
+div.notation span.starOn:before {
+    content : '★' ;
+    width : 16px;
+    height : 16px;
+}
+
+div.notation span.starOff:before {
+    content : '☆' ;
+    width : 16px;
+    height : 16px;
+}
